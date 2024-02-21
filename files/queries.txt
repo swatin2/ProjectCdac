@@ -1,0 +1,18 @@
+use project;
+create database project;
+select * from admin;
+select * from attendance;
+create database school;
+show tables;
+use school;
+drop database project;
+insert into aDMIN  ( address , contact , fname, lname , password , user_name ) 
+values('Ratnagiri',8237175524,'Peter','Parker','Spiderman','rootone');
+select * from notice;
+insert into notice values(14,'XYZ');
+insert into notice values(16,'XYZ');
+use project1;
+show tables;
+select * from admin;
+delete from admin where id = 106;
+select * from exam;
